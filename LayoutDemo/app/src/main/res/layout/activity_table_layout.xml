@@ -1,0 +1,157 @@
+<TableLayout android:stretchColumns="*"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#EAE9E9"
+        android:layout_margin="1px"
+        android:id="@+id/tableRow1">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_RowHeader1"
+        android:text="FRUIT"
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_RowHeader2"
+        android:text="FLOWER"
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_RowHeader3"
+        android:text="ANIMAL"
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_RowHeader4"
+        android:text="VEGITABLE"
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+</TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_margin="1px"
+        android:background="#EAE9E9"
+        android:id="@+id/tableRow2">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_fruit1"
+            android:text="Mango"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_flower1"
+            android:text="Rose"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_animal1"
+            android:text="Tiger"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_vegitable"
+            android:text="Patato"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#EAE9E9"
+        android:layout_margin="1px"
+        android:id="@+id/tableRow3">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_fruit2"
+            android:text="Apple"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_flower2"
+            android:text="Lotous"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_animal2"
+            android:text="Lion"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_vegitable2"
+            android:text="Onion"
+            android:textColor="#003366"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+</TableLayout>

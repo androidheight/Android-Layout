@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="program.androidheight.layoutdemo.FrameLayoutActivity">
+<ImageView
+    android:id="@+id/ivimage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/mountain"/>
+
+<TextView
+    android:id="@+id/tvtext"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Mountain"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textColor="#ffffff"
+    android:background="#6b000000"/>
+    <TextView
+        android:id="@+id/tvtext2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mountain View"
+        android:layout_gravity="top|right"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#6b000000"/>
+</FrameLayout>

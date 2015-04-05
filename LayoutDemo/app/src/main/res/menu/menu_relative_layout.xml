@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".RelativeLayoutActivity">
+
+    <item
+        android:id="@+id/linear_layout"
+        android:title="Linear Layout"/>
+    <item
+        android:id="@+id/frame_layout"
+        android:title="Frame Layout"/>
+    <item
+        android:id="@+id/table_layout"
+        android:title="Table Layout"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_linear_layout">Linear Layout</string>
+    <string name="title_activity_table_layout">Table Layout</string>
+    <string name="title_activity_grid_layout_demo">GridLayoutDemo</string>
+    <string name="title_activity_frame_layout">FrameLayout</string>
+
+</resources>

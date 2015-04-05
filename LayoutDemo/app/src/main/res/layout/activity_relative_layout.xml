@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3c00ff"
+    tools:context=".RelativeLayoutActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login Here"
+        android:id="@+id/tvHeader"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textColor="#6300ff"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="UserName"
+        android:id="@+id/tvUser"
+        android:padding="10dp"
+        android:textColor="#6300ff"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvHeader"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUser"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:background="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/tvUser"
+        android:layout_alignLeft="@+id/tvHeader"
+        android:layout_alignStart="@+id/tvHeader" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/tvPassword"
+        android:padding="10dp"
+        android:textColor="#6300ff"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+
+        android:layout_below="@+id/tvUser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:background="#ffffff"
+
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/tvPassword"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_alignStart="@+id/etUser" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:textColor="#6300ff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/tvPassword"
+        android:layout_centerVertical="true"
+ />
+</RelativeLayout>

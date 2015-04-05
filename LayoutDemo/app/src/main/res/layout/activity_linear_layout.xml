@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="program.androidheight.layoutdemo.LinearLayoutActivity"
+    android:background="#99e632"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:text="Register Here"
+                android:gravity="center"
+                android:textColor="#99e632"
+                android:background="#ffffff"
+                android:id="@+id/ltvHeader" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/letName"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:hint="NAME"
+                android:background="#ffffff"
+
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/letEmail"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:hint="EMAIL"
+                    android:background="#ffffff"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/letPassword"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:hint="PASSWORD"
+                    android:inputType="textPassword"
+                    android:background="#ffffff"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/letAddress"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:hint="ADDRESS"
+                    android:background="#ffffff"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="REGISTER"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#ffffff"
+                    android:textColor="#99e632"
+                    android:id="@+id/lbtnRegister" />
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>
